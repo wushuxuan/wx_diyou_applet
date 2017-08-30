@@ -1,0 +1,43 @@
+<!--logs.wxml-->
+<view class="container">
+   <view class="renting">
+      <view class="section_title">
+        <text><text class="shuxian">|</text> 待租车辆</text>
+      </view>
+      <view class="flex-wrp">
+       <view class="flex-item bc_red num1">
+          <view class="renting_image">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{rentimagesrc01}}" bindload="imageLoad"></image>
+          </view>
+           <text class="textlist">
+            <text class="text">奥迪A8L</text>
+            <text class="text"><text class="money">¥2500 </text> <text class="day">/日</text></text>
+            <text class="button">详细报价</text>
+            <text class="button">车型照片</text>
+          </text>
+        </view>
+        <view class="flex-item bc_red">
+          <view class="renting_image">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{rentimagesrc02}}" bindload="imageLoad"></image>
+          </view>
+         <text class="textlist">
+            <text class="text">奔驰S600</text>
+            <text class="text"><text class="money">¥2200 </text> <text class="day">/日</text></text>
+            <text class="button">详细报价</text>
+            <text class="button">车型照片</text>
+          </text>
+        </view>
+        <view class="flex-item bc_red">
+          <view class="renting_image">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{rentimagesrc03}}" bindload="imageLoad"></image>
+          </view>
+           <text class="textlist">
+            <text class="text">别克GL8豪华商务2017新款</text>
+            <text class="text"><text class="money">¥800 </text> <text class="day">/日</text></text>
+            <text class="button">详细报价</text>
+            <text class="button">车型照片</text>
+          </text>
+        </view>
+    </view>
+</view>
+</view>

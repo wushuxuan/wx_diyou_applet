@@ -1,0 +1,114 @@
+<!--index.wxml-->
+<view class="container">
+
+<!--头部-->
+  <view class="nav_top">
+  <!--  <view class="nav_top_image">
+      <image src="/../images/icon/logo.png"></image>
+    </view>
+    <view class="nav_top_text">
+      <view class="top">上海嘀友网络科技有限公司</view>
+
+      <view class="bottom">联系电话 ：036-6589452</view>
+       <view class="bottom">公司地址 : 上海市浦东新区杨南路455号</view>
+    </view>-->
+    <image src="../../images/car/showcar/12.png"></image>
+  </view>
+
+<!--功能-->
+<view class="function">
+      <view class="flex-wrp">
+        <view class="flex-item">
+        <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{funimagesrc01}}" bindload="imageLoad"></image>
+        <text>预约租车</text>
+        </view>
+         <view class="flex-item">
+        <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{funimagesrc03}}" bindload="imageLoad"></image>
+        <text>车辆出租</text>
+        </view>
+         <view class="flex-item">
+        <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{funimagesrc02}}" bindload="imageLoad"></image>
+        <text>违章查询</text>
+        </view>
+         <view class="flex-item">
+        <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{funimagesrc04}}" bindload="imageLoad"></image>
+        <text>到店有礼</text>
+        </view>
+      </view>
+</view>
+<!--通知-->
+<view class="tongzhi">
+  <image src="../../images/navimages/喇叭.png"></image>
+  <text>推荐用户租车可得 500元优惠</text>
+  <text class="button">立即领取</text>
+</view>
+
+
+<!--车型-->
+  <view class="cartype">
+      <view class="section_title">
+      <text><text class="shuxian">|</text> 车型展示</text>
+      </view>
+      <view class="flex-wrp" style="flex-direction:column;">
+          <view class="flex-item bc_green">
+          <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{imagesrc03}}" bindload="imageLoad"></image> 
+          </view>
+          <view class="flex-item bc_red">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{imagesrc02}}" bindload="imageLoad"></image> 
+          </view>
+          <view class="flex-item bc_blue">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{imagesrc01}}" bindload="imageLoad"></image> 
+          </view>
+            <view class="flex-item bc_green">
+          <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{imagesrc04}}" bindload="imageLoad"></image> 
+          </view>
+      </view>
+       <view class="section_footer">
+        <navigator url="../carType/carType" hover-class="changestyle">查看更多 >></navigator>
+      </view>
+  </view>
+
+
+  <!--待租车辆-->
+<view class="renting">
+      <view class="section_title">
+        <text><text class="shuxian">|</text> 待租车辆</text>
+      </view>
+      <view class="flex-wrp">
+       <view class="flex-item bc_red num1">
+          <view class="renting_image">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{rentimagesrc01}}" bindload="imageLoad"></image>
+          </view>
+           <text class="textlist">
+            <text class="text">奥迪A8L</text>
+            <text class="text"><text class="money">¥2500 </text> <text class="day">/日</text></text>
+            <text class="button">详细报价</text>
+            <text class="button">车型照片</text>
+          </text>
+        </view>
+        <view class="flex-item bc_red">
+          <view class="renting_image">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{rentimagesrc02}}" bindload="imageLoad"></image>
+          </view>
+         <text class="textlist">
+            <text class="text">奔驰S600</text>
+            <text class="text"><text class="money">¥2200 </text> <text class="day">/日</text></text>
+            <text class="button">详细报价</text>
+            <text class="button">车型照片</text>
+          </text>
+        </view>
+        <view class="flex-item bc_red">
+          <view class="renting_image">
+            <image style="width: {{imagewidth}}%; height: {{imageheight}}px;"  src="{{rentimagesrc03}}" bindload="imageLoad"></image>
+          </view>
+           <text class="textlist">
+            <text class="text">别克GL8豪华商务2017新款</text>
+            <text class="text"><text class="money">¥800 </text> <text class="day">/日</text></text>
+            <text class="button">详细报价</text>
+            <text class="button">车型照片</text>
+          </text>
+        </view>
+    </view>
+</view>
+
+</view>

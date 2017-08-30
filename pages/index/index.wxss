@@ -1,0 +1,190 @@
+.container{
+  background: #eee;
+}
+.container .nav_top{
+  width: 100%;
+  background-color: #fff;
+}
+.container .nav_top image{
+  width:100%;
+  height:170px;
+}
+
+/*.container .nav_top .nav_top_image{
+  text-align: center;
+  width:100%;
+}
+.container .nav_top .nav_top_image image{
+  width: 60px;
+  height: 60px;
+  margin:25px 0px 5px 10px;
+  border-radius: 50%;
+}
+.container .nav_top .nav_top_text{
+  width:100%;
+  font-size: 16px;
+  color: #000;
+  text-align: center;
+}
+.container .nav_top .nav_top_text view.bottom{
+  margin-top: 10px;
+  font-size: 12px;
+}
+*/
+/*功能*/
+.function,.function .flex-wrp{
+  background:#fff;
+  width:100%;
+  margin: 0 auto;
+  padding-bottom: 5px;
+  border-top: 1px solid #eee;
+}
+.function .flex-wrp .flex-item{
+  width: 25%;
+  text-align: center;
+  display: inline-block;
+}
+.function .flex-wrp .flex-item image{
+  width:40px !important;
+  height:40px !important;
+  margin: 10px auto;
+  display:block;
+}
+.function .flex-wrp .flex-item text{
+  font-size: 14px;
+  color: #333;
+}
+
+/**通知*/
+.tongzhi{
+  width: 100%;
+  height:30px;
+  border:1px solid #eee;
+  background:#fff;
+  margin-top:2px;
+  position: relative;
+}
+.tongzhi image{
+  display:inline-block;
+  float: left;
+  width:16px;
+  height:16px;
+  margin:7px 10px;
+}
+.tongzhi text{
+  height:100%;
+  display:inline-block;
+  float: left;
+  font-size: 12px;
+  line-height: 30px;
+  margin-left: 5px;
+  color: #333;
+}
+.tongzhi text.button{
+  height:20px;
+  font-size: 11px;
+  line-height: 20px;
+  padding:2px;
+  border:1px solid #1495d8;
+  border-radius: 5px;
+  color: #1495d8;
+  position: absolute;
+  right:10px;
+  top:2px;
+}
+
+/*车型展示*/
+.cartype,.cartype .flex-wrp{
+  width:100%;
+}
+.shuxian{
+  font-weight: bolder;
+  color:#f75d00;
+}
+.cartype .section_title{
+  margin-top: 2px;
+  width:100%;
+  background:#fff;
+  color:#000;
+  padding:15px;
+  border-top: 1px solid #eee;
+}
+.cartype .section_footer text{
+  padding-right: 20px;
+}
+.cartype .flex-wrp .flex-item{
+  width: 50%;
+  display: inline-block;
+}
+.cartype .flex-wrp .flex-item image{
+  width: 100%;
+}
+.cartype .section_footer{
+   width:100%;
+   color: #1495d8;
+   background: #f5f5f5;
+   text-align: right;
+   padding: 10px;
+}
+.cartype .section_footer text{
+  font-size: 14px;
+}
+
+
+/*待租车辆*/
+.renting .section_title{
+  width:100%;
+  background:#fff;
+  color:#000;
+  padding:15px;
+  border-bottom: 1px solid #eee;
+}
+.renting,.renting .flex-wrp .flex-item{
+  background:#fff;
+  width: 100%;
+}
+.renting .flex-wrp .flex-item{
+  text-align: left;
+  padding:15px 15px;
+  border-bottom: 1px solid #eee;
+   display: inline-block;
+   width:90%;
+}
+.renting .flex-wrp .flex-item .renting_image{
+  width:40%;
+  float: left;
+}
+.renting .flex-wrp .flex-item .renting_image image{
+  border-radius: 10px;
+}
+.renting .flex-wrp .flex-item  text.textlist{
+  width:57%;
+  float: right;
+  text-align: center;
+}
+.renting .flex-wrp .flex-item  text.textlist text.text{
+  width:100%;
+  display: block;
+  font-size: 18px;
+  margin: 5px 0px;
+  text-align: center;
+}
+.renting .flex-wrp .flex-item  text.textlist text.text .money{
+  color:#1495d8;
+  font-weight: bold;
+}
+.renting .flex-wrp .flex-item  text.textlist text.text .day{
+  font-size: 12px;
+  color: #333;
+}
+.renting .flex-wrp .flex-item  text.textlist text.button{
+  display: inline-block;
+  font-size: 14px;
+  padding:10px;
+  border-radius: 5px;
+  background:#1495d8;
+  color: #fff;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+

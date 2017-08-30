@@ -1,0 +1,34 @@
+<!--index.wxml-->
+
+
+<!--用户页面-->
+<view class="container">
+
+<!--用户头像信息-->
+  <view  bindtap="bindViewTap" class="userinfo">
+    <image class="userinfo-avatar" src="{{userInfo.avatarUrl}}" background-size="cover"></image>
+    <text class="userinfo-nickname">{{userInfo.nickName}}</text>
+  </view>
+
+
+  <!--用户信息-->
+  <view class="section">
+     <view class="flex-wrp">
+       <view class="flex-item bc_red num1">
+          <text>个人信息</text>
+        </view>
+        <view class="flex-item bc_red">
+          <text>关于我们</text>
+        </view>
+        <view class="flex-item bc_red">
+          <text>微信小程序定制</text>
+        </view>
+      </view>
+  </view>
+  
+
+  <!--底部footer-->
+  <view class="footer">
+  <text>上海嘀友网络科技有限公司 - 沪ICP备14023011号-1</text>
+  </view>
+</view>

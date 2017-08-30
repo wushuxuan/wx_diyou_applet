@@ -1,0 +1,39 @@
+<!--logs.wxml-->
+<view class="container">
+    <view class="section">
+      <view class="flex-wrp">
+       <view class="flex-item bc_red">
+          <text>全部车辆</text>
+          <span class="badge">50</span>
+        </view>
+        <view class="flex-item bc_red">
+          <text>新租车辆</text>
+          <span class="badge">50</span>
+        </view>
+        <view class="flex-item bc_red">
+          <text>退租车辆</text>
+          <span class="badge">50</span>
+        </view>
+        <view class="flex-item bc_red">
+          <text>还款客户</text>
+          <span class="badge">50</span>
+        </view>
+        <view class="flex-item bc_red">
+          <text>退押金客户</text>
+          <span class="badge">50</span>
+        </view>
+        <view class="flex-item bc_blue">
+          <text>租出率</text>
+          <span class="badge red_span">50</span>
+        </view>
+        <view class="flex-item bc_blue">
+        <text> 还款率</text>
+          <span class="badge red_span">50</span>
+        </view>
+        <view class="flex-item bc_blue">
+          <text>出险率</text>
+          <span class="badge red_span">50</span>
+       </view>
+    </view>
+  </view>
+</view>

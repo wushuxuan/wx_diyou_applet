@@ -1,0 +1,57 @@
+.renting .section_title{
+  width:100%;
+  background:#fff;
+  color:#000;
+  padding:15px;
+  border-bottom: 1px solid #eee;
+}
+.renting,.renting .flex-wrp .flex-item{
+  background:#fff;
+  width: 100%;
+}
+.renting .flex-wrp .flex-item{
+  text-align: left;
+  padding:15px 15px;
+  border-bottom: 1px solid #eee;
+   display: inline-block;
+   width:90%;
+}
+.renting .flex-wrp .flex-item .renting_image{
+  width:40%;
+  float: left;
+}
+.renting .flex-wrp .flex-item .renting_image image{
+  border-radius: 10px;
+}
+.renting .flex-wrp .flex-item  text.textlist{
+  width:57%;
+  float: right;
+  text-align: center;
+}
+.renting .flex-wrp .flex-item  text.textlist text.text{
+  width:100%;
+  display: block;
+  font-size: 18px;
+  margin: 5px 0px;
+  text-align: center;
+}
+.renting .flex-wrp .flex-item  text.textlist text.text .money{
+  color:#1495d8;
+  font-weight: bold;
+}
+.renting .flex-wrp .flex-item  text.textlist text.text .day{
+  font-size: 12px;
+  color: #333;
+}
+.renting .flex-wrp .flex-item  text.textlist text.button{
+  display: inline-block;
+  font-size: 14px;
+  padding:10px;
+  border-radius: 5px;
+  background:#1495d8;
+  color: #fff;
+  margin-left: 5px;
+  margin-top: 5px;
+}
+
+

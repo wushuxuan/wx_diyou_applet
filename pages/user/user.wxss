@@ -1,0 +1,66 @@
+pages{
+  padding:0px;
+  margin:0px;
+}
+
+.container{
+  padding: 0px;
+  width:100%;
+}
+
+.userinfo {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.userinfo-avatar {
+  width: 128rpx;
+  height: 128rpx;
+  margin: 20rpx;
+  border-radius: 50%;
+}
+
+.userinfo-nickname {
+  color: #aaa;
+}
+.section,.section .flex-wrp .flex-item{
+  width: 100%;
+}
+.section .flex-wrp .flex-item{
+  text-align: left;
+  padding:15px 15px;
+  border-bottom: 1px solid #eee;
+   display: inline-block;
+   width:90%;
+}
+.section .flex-wrp .num1{
+  margin-top: 20px;
+  border-top: 1px solid #eee;
+}
+.section .flex-wrp{
+  position: relative;
+}
+.section .flex-wrp span.badge{
+  display: inline-block;
+  position: absolute;
+  padding:5px 10px;
+  background:#48c23d;
+  color: #fff;
+  border-radius: 5px;
+  right:20px;
+}
+.section .flex-wrp span.red_span{
+  background:#df3030;
+}
+
+.footer{
+  width: 100%;
+  margin-top: 30px;
+  text-align: center;
+}
+.footer text{
+  font-size: 10px;
+  color: #888;
+}
